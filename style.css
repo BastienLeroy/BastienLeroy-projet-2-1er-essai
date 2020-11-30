@@ -1,0 +1,51 @@
+@font-face{
+    font-family: "Raleway";
+    src: url(Fonts/Raleway-VariableFont_wght.ttf)
+}
+
+body {
+    font-family: Raleway;
+    display: flex;
+    font-style: italic;
+
+}
+
+
+
+#block1 {
+    background-color: red;
+    display: flex;
+}
+.logo {
+
+}
+.inscription {
+
+}
+.menu {
+
+}
+.recherche {
+
+}
+.filtres {
+
+}
+.information {
+
+}
+#block2{
+    background-color: blue;
+}
+.hebergement {
+
+}
+.populaire {
+
+}
+.activite {
+
+}
+.contact{
+    background-color: green;
+}
