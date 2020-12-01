@@ -1,51 +1,127 @@
 @font-face{
     font-family: "Raleway";
     src: url(Fonts/Raleway-VariableFont_wght.ttf)
+         url(Fonts/Raleway-Italic-VariableFont_wght.ttf)
 }
 
 body {
-    font-family: Raleway;
-    display: flex;
-    font-style: italic;
+    background-color: #F2F2F2;
+    width: 100vw;
+    height: 100vh;
+}
+.p{
+    font-family: "Raleway-Bold";
 
 }
 
-
+/*partie header*/
 
 #block1 {
-    background-color: red;
+    display : flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  font-family: 
+}
+.searchBarZone{
+width: 300px;
+
+}
+.navBar {
     display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
-.logo {
+.registerMenu{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    box-shadow:3px 3px 3px grey;
+    height: 50px;
+}
+.nav nav-tabs {
+    justify-content: flex-end;
+    width: 200px;
+    justify-content: space-between;
+}
+.filters{
+    width: auto;
+}
+.register {
+    width: 20px;
+}
+.logo{
+    height: 50px;
 
 }
-.inscription {
-
+.logoImg {
+    height: 100%;
 }
-.menu {
 
-}
-.recherche {
 
-}
-.filtres {
 
-}
-.information {
 
-}
+/*partie main*/
+
 #block2{
-    background-color: blue;
-}
-.hebergement {
+    
+  flex-direction: row;
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  height: 700px;
+  width: 100%;
 
 }
-.populaire {
+.image{
+    display: flex;
+  width: 30%;
+  height: 200px;
+  margin: 2px;
+  border-radius: 20px;
+  
+}
+
+.card{
+
+border-radius: 10px;
+
+  
+}
+.card-img-top{
+    height: 200px;
+}
+.card-img-top-pop {
+    height: 215px;
+    width: 200px;
+    
+    
 
 }
-.activite {
+.hosting{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  
+}
+.mostPopular{
+   width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  
+ }
+#block3 {
+    background-color: yellow;
 
 }
-.contact{
-    background-color: green;
+
+/*partie footer*/
+
+.contact {
+    margin-bottom: 5px;
+    border: 1px solid black;
+    flex-basis: 100%;;
 }
