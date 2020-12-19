@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Raleway";
+    src:
+        url(Fonts/Raleway-VariableFont_wght.ttf)
+        url(Fonts/Raleway-Italic-VariableFont_wght.ttf)
+}
+
+body {
+    background-color: #F2F2F2;
+    width: 100vw;
+    height: 100vh;
+}
+.p {
+    font-family: "Raleway-Bold";
+
+}
+
+/* _______HEADER_______ */
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo{
+    height: 50px;
+}
+.logoImg {
+    height: 100%;
+}
+.registerMenu{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    box-shadow:3px 3px 3px grey;
+    height: 50px;
+    margin: 20px;
+}
+.nav nav-tabs {
+    justify-content: flex-end;
+    width: 200px;
+    justify-content: space-between;
+}
+
+/* ____________________ */
+
+
+/* ________MAIN________ */
+
+#block1 {
+    display: flex;
+}
+.searchBarZone {
+    width: 500px;
+}
+.filters {
+
+}
+.information {
+
+}
+
+
+/* ____________________ */
+
+#block2 {
+
+}
+.hosting {
+
+}
+.card {
+
+}
+.mostPopular {
+
+}
+.card mb-3{
+
+}
+.card-body {
+
+}
+
+/*_____________________*/
+
+#block3 {
+
+}
+
+/* _______FOOTER_______ */
+
+.contact {
+
+}
+
+
+/* ____________________ */
