@@ -42,5 +42,57 @@ body {
     justify-content: space-between;
 }
 
-/* _______________________ */
+/* ____________________ */
 
+
+/* ________MAIN________ */
+
+#block1 {
+    display: flex;
+}
+.searchBarZone {
+    width: 500px;
+}
+.filters {
+
+}
+.information {
+
+}
+
+
+/* ____________________ */
+
+#block2 {
+
+}
+.hosting {
+
+}
+.card {
+
+}
+.mostPopular {
+
+}
+.card mb-3{
+
+}
+.card-body {
+
+}
+
+/*_____________________*/
+
+#block3 {
+
+}
+
+/* _______FOOTER_______ */
+
+.contact {
+
+}
+
+
+/* ____________________ */

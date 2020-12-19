@@ -37,6 +37,7 @@ width: 300px;
     justify-content: space-between;
     box-shadow:3px 3px 3px grey;
     height: 50px;
+    margin: 20px;
 }
 .nav nav-tabs {
     justify-content: flex-end;
@@ -47,7 +48,7 @@ width: 300px;
     width: auto;
 }
 .register {
-    width: 20px;
+    width: 50px;
 }
 .logo{
     height: 50px;
@@ -79,21 +80,25 @@ width: 300px;
   height: 200px;
   margin: 2px;
   border-radius: 20px;
+  border: 2px solid black;
   
 }
 
 .card{
 
 border-radius: 10px;
+border: 2px solid black;
 
   
 }
 .card-img-top{
     height: 200px;
+    border: 2px solid black;
 }
 .card-img-top-pop {
     height: 215px;
     width: 200px;
+    border: 2px solid black;
     
     
 
